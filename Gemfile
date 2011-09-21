@@ -9,6 +9,11 @@ gem 'mysql2'
 gem 'execjs'
 
 
+group :test do
+  gem 'rspec-rails', '>= 2.0.0.beta.10'
+end
+
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
